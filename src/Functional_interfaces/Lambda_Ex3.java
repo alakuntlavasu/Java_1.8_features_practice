@@ -19,7 +19,7 @@ public class Lambda_Ex3 {
 		
 		// Lambda Expression
           Cab9 cab=( source, destination)->{System.out.println("Ola cab is booked from"+source+"To"+destination);
-  		return ("price:6000 Rs");
+  		return ("price:7000 Rs");
   		};
 //          cab.bookeCab("Madanapalli", "Tirupathi);
           System.out.println(cab.bookeCab("Madanapalli","Tirupathi"));
